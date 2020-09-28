@@ -15,11 +15,10 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/
   articles: /archives/
   分类: /categories/
   标签: /tags/
-  projects: projects_url
+  关于我: /about/
 
 #数学公式渲染
 mathjax:
@@ -86,6 +85,9 @@ logo:
   url: /images/logo.png
   gravatar: false
 
+#记录访客数量
+# visitors count
+counter: true
 # Customize the favicons.
 # Cactus supports a limited set of the three most important icons:
 #   - desktop: The classic favion.ico file.
